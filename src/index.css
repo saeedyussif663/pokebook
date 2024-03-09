@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.shadows {
+  box-shadow: inset -1px 0px 0px 0px rgba(255, 255, 255, 1);
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 4px 10px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.head {
+  text-align: right;
+  font-weight: 400;
+}
